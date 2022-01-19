@@ -10,6 +10,7 @@ const NavStyles = styled.nav`
     background: black;
     color: white;
     
+    font-size: 1.4rem;
     
     
 `
@@ -22,7 +23,6 @@ const NavLinksContainer = styled.ul`
 
 const NavLinks = styled.li`
     margin: 10px;
-    
 `
 
 
