@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const NavStyles = styled.div`
+const NavStyles = styled.nav`
     display: flex;
     flex-direction : row;
     justify-content : space-around;
@@ -10,7 +10,21 @@ const NavStyles = styled.div`
     background: black;
     color: white;
     
+    
+    
+`
+
+const NavLinksContainer = styled.ul`
+    list-style: none;
+    display: flex;  
+    float: right;
+`
+
+const NavLinks = styled.li`
+    margin: 10px;
+    
 `
 
 
-export { NavStyles }
+
+export { NavStyles, NavLinksContainer, NavLinks }

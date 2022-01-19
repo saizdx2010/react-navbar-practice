@@ -1,17 +1,13 @@
 import React from "react";
 import { NavStyles } from "./Style";
+import { NavItem } from "./NavItem"
 
 export class Navbar extends React.Component {
 
     render() {
         return (
             <NavStyles>
-                <span className="navbar-logo">SP</span>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact Us</li>
-                </ul>
+                <NavItem navLogo="SP" item1="halo" item2="halo" item3="halo" />
             </NavStyles>
         )
     }
